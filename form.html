@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/form.css">
+
+        
+</head>
+<body>
+    <header>
+    <div class="contaiener">
+        
+       
+            <!--Identificacion de la persona-->
+        <div  class="left">
+            <h3 class="titulo">Identificacion </h3>
+            <form action="https://formspree.io/f/xyyqnloj" method="post">
+                <div class="input">
+                    <label for="nom">Nombre compreto</label>
+                    <input type="text" id="nom" placeholder="Nombre compreto" required>
+                </div>
+
+                <div class="input">
+                    <label for="email">Correo electronico</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+
+                <div class="input">
+                    <label for="provi">Provincia</label>
+                    <input type="text" name="provincia" id="provi" placeholder="Provincia"required>
+                </div>
+
+                <div class="input">
+                    <label for="loca">Localidad</label>
+                    <input type="text" name="localidad" id="loca" placeholder="localidad" required>
+                </div>
+
+                <div class="input">
+                    <label for="dni">DNI</label>
+                    <input type="number" id="dni" name="dni" placeholder="DNI" required>
+                </div>
+
+                <div class="input">
+                    <label for="tel"> Telefonó</label>
+                    <input type="number" id="tel" name="tel" placeholder="Telefono" required>
+                </div>
+           ¿
+        </div>
+            
+               <!--Tarjeta-->
+        <div  class="right">
+            <h3 class="titulo">Pago </h3>
+           
+                <div class="input">
+                  <label for="img">Targetas que aceptamos</label>
+                  <img src="img/targeta.png" id="img" width="70%">
+                </div>
+                   
+                <div class="input">
+                      <label for="num">Número de targeta</label>
+                      <input type="number" id="num" name="num de tarjeta" placeholder="1111-3333-4444-5555" required>
+                </div>
+  
+                <div class="input">
+                      <label for="fecha">Mes y año de vencimieto</label>
+                      <input type="text" id="fecha de vencimiento" name="vencimiento" placeholder="marzo-2023" required>
+                </div>
+  
+                <div class="input">
+                    <label for="cvv">CVV</label>
+                    <input type="number" id="cvv" name="cvv" placeholder="CVV" required>
+                </div>
+
+                <input type="submit"  id="boton" value="Confirmar compra">  
+            </form>  
+            
+                
+        </div>
+                       
+
+    </div>
+</header>
+</body>
+</html>
