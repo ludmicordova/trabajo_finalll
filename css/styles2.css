@@ -9,6 +9,7 @@
     list-style: none;
     text-decoration: none;
 }
+
 img{
     width: 100%;
 }
@@ -43,15 +44,16 @@ header{
     padding: 20px 0 ;
 }
 .cart-content {
-    max-height: 400px; /* Establece el tamaño máximo del contenido del carrito */
+    max-height: 400px; 
     overflow-y: auto;
-    overflow-x: hidden;  /* Agrega la barra de desplazamiento cuando sea necesario */
+    overflow-x: hidden; 
     
   }
 
 
 #cart-icon{
-margin-left: 3rem;
+ margin-top: 4rem;
+ margin-left: 1rem;
  font-size: 1.8rem;
  cursor:pointer
  }

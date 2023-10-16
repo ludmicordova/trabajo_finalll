@@ -55,7 +55,7 @@ input{
 label{
     display: block;
 }
-#boton{
+.boton{
     width: 100%;
     padding: 0.7rem 1.5rem;
     background-color: rosybrown;
@@ -65,9 +65,24 @@ label{
     margin-top: 1rem;
     cursor: pointer;
 }
-#boton:hover{
+.boton:hover{
     background:violet;
 }
+
+#link{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width:770px){
     .contaiener{
